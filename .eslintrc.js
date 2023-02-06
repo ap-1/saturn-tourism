@@ -12,7 +12,7 @@ module.exports = {
 		node: true,
 		es6: true,
 	},
-	plugins: ["simple-import-sort"],
+	plugins: ["simple-import-sort", "sonarjs"],
 	settings: {
 		react: {
 			version: "detect",
@@ -25,6 +25,7 @@ module.exports = {
 		"plugin:jsx-a11y/recommended",
 		"plugin:react/recommended",
 		"plugin:prettier/recommended",
+		"plugin:sonarjs/recommended",
 		"plugin:unicorn/recommended",
 		"plugin:react-hooks/recommended",
 	],
