@@ -1,3 +1,6 @@
+import "../public/uno.css";
+import "@unocss/reset/antfu.css";
+
 import { type PropsWithChildren } from "react";
 
 export default function RootLayout({ children }: PropsWithChildren) {
@@ -8,7 +11,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
 			<head />
-			<body>{children}</body>
+			<body className="font-sans">{children}</body>
 		</html>
 	);
 }

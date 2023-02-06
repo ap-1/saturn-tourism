@@ -19,6 +19,7 @@ module.exports = {
 		},
 	},
 	extends: [
+		"@unocss",
 		"next/core-web-vitals",
 		"eslint:recommended",
 		"plugin:jsx-a11y/recommended",
