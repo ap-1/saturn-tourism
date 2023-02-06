@@ -1,0 +1,9 @@
+{
+	"recommendations": [
+		"ms-vscode.vscode-typescript-next",
+		"knisterpeter.vscode-commitizen",
+		"editorconfig.editorconfig",
+		"esbenp.prettier-vscode",
+		"dbaeumer.vscode-eslint"
+	]
+}
